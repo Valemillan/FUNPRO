@@ -1,0 +1,107 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyOn8cfdRpLXlJ1a/V6Lbp4K",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Valemillan/FUNPRO/blob/main/ejercicios%2022%20de%20septiembre\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 8,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "X1MinW9asjks",
+        "outputId": "4b84cbcc-9776-47db-9517-f7595b320523"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "ingrese el numero9\n",
+            "el numero 9.0 es positivo\n"
+          ]
+        }
+      ],
+      "source": [
+        "#numero positivo, negativo o cero\n",
+        "n= float (input (\"ingrese el numero\"))\n",
+        "if n>0:\n",
+        "  print (f\"el numero {n} es positivo\")\n",
+        "elif n<0:\n",
+        "  print (f\"el numero {n} es negativo\")\n",
+        "elif n==0:\n",
+        "  print (f\"es numero {n} es cero\")\n"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#determinar si un año es bisiesto\n",
+        "año=int(input (\"ingrese un año\"))\n",
+        "if año%4==0:\n",
+        "  print (f\"el año{año} es bisiesto\")\n",
+        "elif año%400==0:\n",
+        "  print (f\"el año {año} es bisiesto\")\n",
+        "else:\n",
+        "  print (f\"el año{año} no es bisiesto\")\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "0nkmqLg45d3H",
+        "outputId": "58f80971-b604-4125-f696-70d8ebaf8b9b"
+      },
+      "execution_count": 17,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "ingrese un año2025\n",
+            "el año2025 no es bisiesto\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#clasiicacion de triangulos\n",
+        "lado1= float (input(\"ingrese el primer lado\"))\n",
+        "lado2= float (input(\"ingrese el segundo lado\"))\n",
+        "lado3= float (input(\"ingrese el tercer lado\"))\n",
+        "if"
+      ],
+      "metadata": {
+        "id": "r4Eckc071Gv6"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
