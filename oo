@@ -1,0 +1,78 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyNNelL/wjMQK6AtNVnFQI6N",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Valemillan/FUNPRO/blob/main/oo\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 6,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Ziml5S_6tOMD",
+        "outputId": "96a0354d-551a-451e-c266-5cacbe0e2dfc"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "ingrese la cantidad de empleados3\n",
+            "ingrese el salario del empleado 2:20\n",
+            "ingrese el salario del empleado 3:30\n",
+            "ingrese el salario del empleado 4:40\n",
+            "la nomina de 3 empleados es:90\n"
+          ]
+        }
+      ],
+      "source": [
+        "#HACER UN PROGRAMA QUE CALCULE LA NOMINA DE N EMPLEADOS\n",
+        "nomina=0\n",
+        "n=int(input(\"ingrese la cantidad de empleados\"))\n",
+        "for s in range (1,n+1,1):\n",
+        "  sueldo=int (input(f\"ingrese el salario del empleado {s+1}:\"))\n",
+        "  nomina= nomina+ sueldo #acumulador\n",
+        "print (f\"la nomina de {n} empleados es:{nomina}\")"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "**estructura PARA**\n",
+        "\n",
+        "la estructura para se emplea cuando se sabe * cuantas veces* se repite una accion\n",
+        "\n",
+        "sintaxis\n",
+        "for (vaiable) in range (VI - VF):\n",
+        "la accion que se repite VF-VI"
+      ],
+      "metadata": {
+        "id": "9RYu-bGutR_Z"
+      }
+    }
+  ]
+}
