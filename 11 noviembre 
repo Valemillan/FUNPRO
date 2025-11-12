@@ -1,0 +1,60 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyNBvSpLK5z/6qeeGqpXrUmN",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Valemillan/FUNPRO/blob/main/11%20noviembre%20\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "LeFwkLnp-PLK"
+      },
+      "outputs": [],
+      "source": [
+        "notas = []\n",
+        "n = int(input(\"Cuantas notas vas a ingresar: \"))\n",
+        "\n",
+        "for i in range(n):\n",
+        "    nota = float(input(\"Digite la nota: \"))\n",
+        "    notas.append(nota)\n",
+        "\n",
+        "maxima = max(notas)\n",
+        "minima = min(notas)\n",
+        "mayores = 0\n",
+        "for i in notas:\n",
+        "    if i > 3.0:\n",
+        "        mayores += 1\n",
+        "promedio = sum(notas) / len(notas)\n",
+        "\n",
+        "print(\"\\nResultados:\")\n",
+        "print(\"Nota máxima:\", maxima)\n",
+        "print(\"Nota mínima:\", minima)\n",
+        "print(\"Notas mayores a 3.0:\", mayores)\n",
+        "print(\"Promedio:\", round(promedio, 2))"
+      ]
+    }
+  ]
+}
